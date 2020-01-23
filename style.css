@@ -1,0 +1,27 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.change_color{
+    cursor: pointer;
+    padding: 0.5rem,0.5rem;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: capitalize;
+    border: 3px solid white;
+    border-radius: 7px;
+    color:white;
+    outline: none
+
+
+
+}
+.change_color:hover{
+    background: black;
+}
